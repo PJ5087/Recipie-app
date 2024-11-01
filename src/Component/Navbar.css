@@ -1,0 +1,30 @@
+.app-nav {
+    display: flex;
+    justify-content: space-between; /* Aligns items to the left and right */
+    align-items: center; /* Centers items vertically */
+    background-color: rgb(238, 124, 36); /* Green background */
+    padding: 1rem 2rem; /* Padding around the nav */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .head {
+    color: white; /* White text color */
+    font-size: 24px; /* Font size */
+    text-decoration: none; /* Removes underline */
+    font-weight: bold; /* Makes the text bold */
+  }
+  
+  .head:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  .favorites {
+    font-size: 24px; /* Font size for the heart icon */
+    color: white; /* White color for the icon */
+    text-decoration: none; /* Removes underline */
+  }
+  
+  .favorites:hover {
+    color: #FFCC00; /* Change color on hover */
+  }
+  
